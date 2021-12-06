@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+      text-decoration: none;
+}
+
+p {
+  font-size: 1.3vw;
+}
+
+
+h1 {
+  color: rgb(255, 142, 164);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+h2 {
+  color: rgb(255, 142, 164);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+body {
+    background-image: url("../Imagens/1168d06c.png");
+    background-repeat: repeat;
+  }
+
+#box1 {
+    margin: 0px 6% 0px 6%;
+    background-color: white;
+    border-right: 0.3vw solid rgb(197, 129, 182);
+    border-left: 0.3vw solid rgb(197, 129, 182);
+  }
+  
+  #box1 header {
+    background-color: rgb(250, 215, 215);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+
+  #logo {
+    width: 8vw;
+    height: 8vw;
+    margin: 0.5%;
+  }
+
+  .links {
+    color: rgb(250, 95, 126);
+    font-weight: bolder;
+    padding: 8px;
+    margin: 0px 0px 0px 15px;
+    font-size: 1.6vw;
+    border-radius: 20px;
+  }
+  
+  .links:hover {
+    background-color: rgba(255, 0, 200, 0.089);
+    transition: 0.2s;
+    text-shadow: #764677 1.6px 1.6px 1.6px;
+  }
+
+  #box1 footer {
+    margin-top: 2%;
+    padding: 0.6%;
+    background-color: rgb(250, 215, 215);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+  
+  #box1 footer #span1 {
+    font-size: 0.8vw;
+    font-weight: bolder;
+    color: brown;
+  }
+  
+  #box1 footer #span2 {
+    font-size: 0.6vw;
+    color: brown;
+  }
+
+  @media only screen and (min-width: 601px) and (max-width: 900px) {
+    p {
+      font-size: 2.4vw;
+    }
+
+    #box1 header {
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  
+    #box1 footer {
+      margin-top: 6%;
+      padding: 2.5%;
+    }
+  
+    #box1 footer #span1 {
+      font-size: 1.8vw;
+    }
+  
+    #box1 footer #span2 {
+      font-size: 1.6vw;
+    }
+
+    #logo {
+      width: 12vw;
+      height: 12vw;
+      margin: 2%;
+    }
+
+    .links {
+      padding: 8px;
+      font-size: 2.8vw;
+      margin: 0px 0px 0px 0px;
+    }
+  }
+
+  @media only screen and (min-width: 1px) and (max-width: 600px) {
+    p {
+      font-size: 3vw;
+    }
+
+    #box1 header {
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  
+    .textosinv {
+      margin-top: 40px;
+      border: 2px dashed rgb(255, 142, 164);
+      margin-left: 20%;
+      padding: 1.5%;
+      text-align: justify;
+      border-radius: 10px;
+    }
+  
+    #box1 footer {
+      margin-top: 6%;
+      padding: 2.5%;
+    }
+  
+    #box1 footer #span1 {
+      font-size: 2.5vw;
+    }
+  
+    #box1 footer #span2 {
+      font-size: 2.2vw;
+    }
+
+    #logo {
+      width: 12vw;
+      height: 12vw;
+      margin: 2%;
+    }
+
+    .links {
+      padding: 8px;
+      font-size: 3.5vw;
+      margin: 0px 0px 0px 0px;
+    }
+  }
